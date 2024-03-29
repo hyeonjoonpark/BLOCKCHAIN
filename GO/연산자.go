@@ -69,8 +69,25 @@ func 연산자() {
 	fmt.Printf("num4: %d\n", num4)
 
 	// 비트연산자
-	// &
+	// & (AND)
 	num5 := 10 // 1010
-	num6 := 20 // 10100
-	fmt.Printf("num5 & num6: %d\n", num5&num6) // num5 & num6: 0
+	num6 := 30 // 11110
+	fmt.Printf("num5 & num6: %d\n", num5&num6) // num5 & num6: 10
+
+	// | (OR)
+	fmt.Printf("num5 | num6: %d\n", num5|num6) // num5 | num6: 30
+
+	// ^ (XOR)
+	fmt.Printf("num5 ^ num6: %d\n", num5^num6) // num5 ^ num6: 20
+	fmt.Println(^num6) // 225 (30의 2의 보수)
+
+	// &^ (AND NOT)
+	fmt.Printf("num5 &^ num6: %d\n", num5&^num6) // num5 &^ num6: 0
+
+
+	// 시프트연산자
+	// << (왼쪽 시프트)
+	num7 := 10
+	fmt.Printf("num7 << 3: %d\n", num7<<3) // num7 << 3: 80
+	fmt.Printf("num7 >> 3: %d\n", num7>>3) // num7 >> 3: 1
 }

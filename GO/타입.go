@@ -50,4 +50,9 @@ func 타입() {
 	// %T : 타입
 	fmt.Printf("isBool: %T\n", isBool) // isBool: bool
 	// 타입을 출력할 때 사용
+
+	// type : 타입 정의
+	type myInt int
+	var num5 myInt = 50
+	fmt.Printf("num5: %d\n", num5) // num5: 50 (myInt로 선언)
 }
