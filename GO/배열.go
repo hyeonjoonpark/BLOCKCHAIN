@@ -26,5 +26,5 @@ func 배열() {
 		{7, 8, 9},
 	}
 
-	fmt.Println(arr2[1][1])
+	fmt.Println(arr2[1][2])
 }
