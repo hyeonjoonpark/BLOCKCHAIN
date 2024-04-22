@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func 배열() {
+func ex_array() {
 	// 배열
 	var arr [3]int
 	arr = [3]int{1, 2, 3}

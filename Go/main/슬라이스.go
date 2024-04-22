@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func 슬라이스() {
+func ex_slice() {
 	// 슬라이스 (동적배열)
 
 	// 선언

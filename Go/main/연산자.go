@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func 연산자() {
+func ex_operator() {
 	// 산술연산자
 	// +
 	num1 := 10

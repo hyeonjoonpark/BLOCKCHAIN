@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func 변수() {
+func ex_variable() {
 	// 변수선언 var
 	var num1 int = 10
 	fmt.Printf("num1: %d\n", num1) // num1: 10 (int로 선언)

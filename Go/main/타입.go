@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func 타입() {
+func ex_type() {
 	// 주로 사용하는 타입
 
 	var isBool bool = false
