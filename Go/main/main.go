@@ -7,4 +7,5 @@ func main() {
 	ex_variable()
 	ex_type()
 	ex_struct()
+	method()
 }
