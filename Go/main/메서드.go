@@ -14,7 +14,7 @@ func (c *Calculator) addPointer(y int) {
 	c.X += y
 }
 
-func method() {
+func ex_method() {
 	calc := Calculator{X: 10}
 	val := calc.add(20)
 
